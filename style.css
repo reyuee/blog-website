@@ -1,0 +1,46 @@
+body {
+    margin: 20px;
+    font-family: serif;
+    background: white;
+    color: black;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1, h2, p {
+    margin: 0 0 10px 0;
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1px solid black;
+    background: white;
+    padding: 4px 8px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.selected {
+    background: black;
+    color: white;
+}
+
+.blog-post {
+    display: none;
+    margin-bottom: 30px;
+}
+
+.show-post {
+    display: block;
+}
+
+.blue-box {
+    border-left: 3px solid black;
+    padding-left: 10px;
+    margin-top: 10px;
+}
