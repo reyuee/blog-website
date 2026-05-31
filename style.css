@@ -20,8 +20,10 @@ h1, h2, p {
 button {
     border: 1px solid black;
     background: white;
+    
     padding: 4px 8px;
     margin-right: 5px;
+
     cursor: pointer;
 }
 
@@ -42,5 +44,26 @@ button {
 .blue-box {
     border-left: 3px solid black;
     padding-left: 10px;
+
     margin-top: 10px;
+}
+
+.main-nav {
+    padding: 15px 20px;
+
+    border-bottom: 1px solid black;
+
+    margin-bottom: 20px;
+}
+
+.main-nav a {
+    margin-right: 15px;
+
+    text-decoration: none;
+
+    color: black;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
 }
