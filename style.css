@@ -83,3 +83,20 @@ button {
     margin-right: 10px;
     font-size: 0.9rem;
 }
+
+.post-content {
+    max-width: 600px;
+    line-height: 1.7;
+}
+
+.post-content h2 {
+    margin-top: 30px;
+}
+
+.post-content ul {
+    padding-left: 20px;
+}
+
+.post-content li {
+    margin-bottom: 8px;
+}
