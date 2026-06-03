@@ -68,3 +68,18 @@ button {
     text-decoration: underline;
 }
 
+.archive-list {
+    list-style: none;
+    padding: 0;
+}
+
+.archive-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+
+.archive-date {
+    color: grey;
+    margin-right: 10px;
+    font-size: 0.9rem;
+}
