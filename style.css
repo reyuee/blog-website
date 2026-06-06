@@ -19,7 +19,7 @@ header {
 h1, h2, p {
     margin: 0 0 10px 0;
     letter-spacing: 1px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: sans-serif;
 }
 
 .filters {
@@ -121,8 +121,12 @@ button:hover {
 
     color: white;
     background-color: #000000;
-    padding: 10px;
+    padding: 5px;
     text-decoration: none;
+    width: 5px;
+ 
+    
+    
 }
 
 main {
