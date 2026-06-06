@@ -3,6 +3,13 @@ body {
     font-family: serif;
     background: white;
     color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+
 }
 
 header {
@@ -11,10 +18,13 @@ header {
 
 h1, h2, p {
     margin: 0 0 10px 0;
+    letter-spacing: 1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .filters {
     margin-bottom: 20px;
+
 }
 
 button {
@@ -23,8 +33,13 @@ button {
 
     padding: 4px 8px;
     margin-right: 5px;
-
+    transition: background-color 0.5s ease, color 0.5s ease;
     cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
 }
 
 .selected {
@@ -35,6 +50,7 @@ button {
 .blog-post {
     display: none;
     margin-bottom: 30px;
+
 }
 
 .show-post {
@@ -58,9 +74,9 @@ button {
 
 .main-nav a {
     margin-right: 15px;
-
+    font-size: 18px;
     text-decoration: none;
-
+    font-family: 'Courier New', Courier, monospace;
     color: black;
 }
 
@@ -99,4 +115,24 @@ button {
 
 .post-content li {
     margin-bottom: 8px;
+}
+
+.links {
+
+    color: white;
+    background-color: #000000;
+    padding: 10px;
+    text-decoration: none;
+}
+
+main {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+
+    border: solid 1px #000000;
+    padding: 40px;
+    width: 100%;
+
 }
